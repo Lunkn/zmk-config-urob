@@ -59,6 +59,5 @@ manifest:
           - hal_stm32
           - lvgl
           - tinycrypt
-          - corne
   self:
     path: config
