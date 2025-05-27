@@ -1,4 +1,3 @@
-layout: {zmk_keyboard: corne, layout_name: foostan_corne_6col_layout}
 parse_config:
   zmk_remove_keycode_prefix: ["SE_"]
   zmk_additional_includes:
