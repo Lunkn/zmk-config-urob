@@ -1,9 +1,13 @@
+layout:
+  zmk_keyboard: corne
+  layout_name: foostan_corne_6col_layout
 parse_config:
+  zmk_remove_keycode_prefix: ["SE_"]
   zmk_additional_includes:
     - "modules/zmk/helpers/include"
 
   zmk_preamble: |
-    #include <zmk-helpers/key-labels/42.h>
+    #include "zmk-helpers/key-labels/42.h"
     #define CONFIG_WIRELESS
 
   raw_binding_map:
@@ -168,6 +172,9 @@ parse_config:
     TILDE2: "~"
     UNDER: _
     UNDERSCORE: _
+    AE: "Å"
+    AA: "Ä"
+    OO: "Ö"
 
 draw_config:
   append_colon_to_layer_header: false
