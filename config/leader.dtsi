@@ -13,6 +13,11 @@
             }; \
         }; \
     };
+// Leader sequences for ZMK
+// General
+ZMK_LEADER_SEQUENCE(sv_ae,      &sv_ae,         I)  // ä
+ZMK_LEADER_SEQUENCE(sv_ao,      &sv_ao,         Y)  // ö
+ZMK_LEADER_SEQUENCE(sv_oe,      &sv_oe,         O)  // ü
 
 
 // BLE and USB
