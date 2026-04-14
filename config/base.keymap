@@ -292,5 +292,3 @@ ZMK_BASE_LAYER(Qwerty,
                                               &mo SYM       SMART_NUM    &lt_spc NAV 0 ,  &lt FN RET    &kp BSPC      MAGIC_SHIFT
 //                                          ╰─────────────┴─────────────┴─────────────╯ ╰─────────────┴─────────────┴─────────────╯
 )
-
-/* vim: set ft=c tw=146: */ 
