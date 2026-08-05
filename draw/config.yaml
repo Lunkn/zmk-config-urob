@@ -172,8 +172,11 @@ parse_config:
     AE: "Å"
     AA: "Ä"
     OO: "Ö"
+    SV_A_RING: "Å"
+    SV_A_UMLAUT: "Ä"
+    SV_O_UMLAUT: "Ö"
 
 draw_config:
   append_colon_to_layer_header: false
-  dark_mode: auto
+  dark_mode: true
   footer_text: "urob/zmk-config"
